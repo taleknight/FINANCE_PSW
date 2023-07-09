@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'perfil'
+    'perfil',
+    'extrato'
 ]
 
 MIDDLEWARE = [
@@ -131,6 +132,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Messages
+
 
 from django.contrib.messages import constants
 
